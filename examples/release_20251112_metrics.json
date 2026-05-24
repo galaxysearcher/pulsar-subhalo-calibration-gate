@@ -1,0 +1,32 @@
+{
+  "release_id": "release_20251112",
+  "axes": {
+    "z_log10M": {
+      "n": 4000,
+      "mean_u": 0.495,
+      "ks_d": 0.15
+    },
+    "z_x": {
+      "n": 4000,
+      "mean_u": 0.505,
+      "ks_d": 0.15
+    },
+    "z_y": {
+      "n": 4000,
+      "mean_u": 0.495,
+      "ks_d": 0.1
+    },
+    "z_z": {
+      "n": 4000,
+      "mean_u": 0.5,
+      "ks_d": 0.194,
+      "coverage_2sigma": 1.0,
+      "coverage_3sigma": 1.0,
+      "worst_abs_z": 1.306
+    }
+  },
+  "posthoc_z_z": {
+    "tau": 0.66,
+    "intercept": -0.03
+  }
+}

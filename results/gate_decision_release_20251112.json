@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "release_id": "release_20251112",
+  "reasons": [],
+  "thresholds": {
+    "min_samples": 200,
+    "mean_u_min": 0.45,
+    "mean_u_max": 0.55,
+    "ks_d_max": 0.2,
+    "worst_abs_z_max": 3.0,
+    "coverage_2sigma_min": 0.9,
+    "coverage_3sigma_min": 0.99
+  },
+  "metrics": {
+    "release_id": "release_20251112",
+    "axes": {
+      "z_log10M": {
+        "n": 4000,
+        "mean_u": 0.495,
+        "ks_d": 0.15
+      },
+      "z_x": {
+        "n": 4000,
+        "mean_u": 0.505,
+        "ks_d": 0.15
+      },
+      "z_y": {
+        "n": 4000,
+        "mean_u": 0.495,
+        "ks_d": 0.1
+      },
+      "z_z": {
+        "n": 4000,
+        "mean_u": 0.5,
+        "ks_d": 0.194,
+        "coverage_2sigma": 1.0,
+        "coverage_3sigma": 1.0,
+        "worst_abs_z": 1.306
+      }
+    },
+    "posthoc_z_z": {
+      "tau": 0.66,
+      "intercept": -0.03
+    }
+  }
+}
